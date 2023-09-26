@@ -37,12 +37,6 @@ const Education = () => {
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
 
-          <ResumeCard
-            title="Class 10th Education"
-            subTitle="Gayatri Shiksha Niketan Khargone M.P.(School) (2014 - 2015)"
-            result="63.50%"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
         </div>
       </div>
     </motion.div>
