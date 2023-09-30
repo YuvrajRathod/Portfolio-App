@@ -42,16 +42,30 @@ const Banner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon"  >
+            {/* <span className="bannerIcon"  >
               <FaFacebookF />
-            </span>
-
-            <span className="bannerIcon">
+            </span> */}
+            <a href="https://www.facebook.com/Yuvraj2603" target="_blank" rel="noopener noreferrer" class="linkedinIcon">
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+            </a>
+            {/* <span className="bannerIcon">
               <FaInstagram />
-            </span>
-            <span className="bannerIcon">
+            </span> */}
+            <a href="https://www.instagram.com/yuvrajra2603/" target="_blank" rel="noopener noreferrer" class="linkedinIcon">
+              <span className="bannerIcon">
+                <FaInstagram />
+              </span>
+            </a>
+            {/* <span className="bannerIcon">
               <FaLinkedinIn />
-            </span>
+            </span> */}
+            <a href="https://www.linkedin.com/in/yuvraj-rathod-380798183/" target="_blank" rel="noopener noreferrer" class="linkedinIcon">
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
           </div>
         </div>
         <div>
