@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiCanva, SiNodedotjs } from "react-icons/si";
+import { SiTailwindcss, SiGithub, SiNodedotjs } from "react-icons/si";
 import { yuviPhoto } from "../../assets/index";
 const Banner = () => {
     const [text] = useTypewriter({
