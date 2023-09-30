@@ -45,7 +45,7 @@ const Banner = () => {
             {/* <span className="bannerIcon"  >
               <FaFacebookF />
             </span> */}
-            <a href="https://www.facebook.com/Yuvraj2603" target="_blank" rel="noopener noreferrer" class="linkedinIcon">
+            <a href="https://www.facebook.com/Yuvraj2603" target="_blank" rel="noopener noreferrer" class="facebookIcon">
               <span className="bannerIcon">
                 <FaFacebookF />
               </span>
@@ -53,14 +53,14 @@ const Banner = () => {
             {/* <span className="bannerIcon">
               <FaInstagram />
             </span> */}
-            <a href="https://www.instagram.com/yuvrajra2603/" target="_blank" rel="noopener noreferrer" class="linkedinIcon">
+            <a href="https://www.instagram.com/yuvrajra2603/" target="_blank" rel="noopener noreferrer" class="instagramIcon">
               <span className="bannerIcon">
                 <FaInstagram />
               </span>
             </a>
             {/* <span className="bannerIcon">
               <FaLinkedinIn />
-            </span> */}
+            </span> */}c
             <a href="https://www.linkedin.com/in/yuvraj-rathod-380798183/" target="_blank" rel="noopener noreferrer" class="linkedinIcon">
               <span className="bannerIcon">
                 <FaLinkedinIn />
@@ -73,18 +73,38 @@ const Banner = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+            {/* <span className="bannerIcon">
               <FaReact />
-            </span>
-            <span className="bannerIcon">
+            </span> */}
+            <a href="https://react.dev/learn" target="_blank" rel="noopener noreferrer" class="ReactIcon">
+              <span className="bannerIcon">
+                <FaReact />
+              </span>
+            </a>
+            {/* <span className="bannerIcon">
               <SiNodedotjs />
-            </span>
-            <span className="bannerIcon">
+            </span> */}
+            <a href="https://nodejs.dev/en/learn/" target="_blank" rel="noopener noreferrer" class="NodedotjsIcon">
+              <span className="bannerIcon">
+                <SiNodedotjs />
+              </span>
+            </a>
+            {/* <span className="bannerIcon">
               <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
+            </span> */}
+            <a href="https://tailwindcss.com/docs/installation" target="_blank" rel="noopener noreferrer" class="TailwindcssIcon">
+              <span className="bannerIcon">
+                <SiTailwindcss />
+              </span>
+            </a>
+            {/* <span className="bannerIcon">
               <SiCanva />
-            </span>
+            </span> */}
+            <a href="https://github.com/YuvrajRathod" target="_blank" rel="noopener noreferrer" class="gitHubIcon">
+              <span className="bannerIcon">
+                <SiGithub />
+              </span>
+            </a>
           </div>
         </div>
       </div>
