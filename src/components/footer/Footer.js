@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import FooterBottom from './FooterBottom';
 
@@ -9,16 +9,21 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8 items-center">
         <img className="w-42 border-white rounded-[50%] border-2" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
-          
+          <a href="https://www.facebook.com/Yuvraj2603" target="_blank" rel="noopener noreferrer" class="facebookIcon">
+            <span className="bannerIcon">
+              <FaFacebookF />
+            </span>
+          </a>
+          <a href="https://www.instagram.com/yuvrajra2603/" target="_blank" rel="noopener noreferrer" class="instagramIcon">
+            <span className="bannerIcon">
+              <FaInstagram />
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/yuvraj-rathod-380798183/" target="_blank" rel="noopener noreferrer" class="linkedinIcon">
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>          
         </div>
         <FooterBottom/>
       </div>
