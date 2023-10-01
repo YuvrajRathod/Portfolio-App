@@ -48,9 +48,9 @@ const Navbar = () => {
               <div className='flex flex-col items-center'>
                 <img className="w-32 rounded-[50%] items-center" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-4 p-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  I use animation like a magic wand, making things smoother and 
+                  guiding you through each step. It's not just for show, but  
+                  to make everything work seamlessly. 
                 </p>
               </div>
               <ul className="flex flex-wrap gap-[50px] justify-center ">
@@ -75,18 +75,24 @@ const Navbar = () => {
               </ul>
               <div className="flex flex-col gap-6">
                 <h2 className="text-base capitalize font-titleFont my-3 text-center ">
-                  Find Me On
+                  FIND ME ON
                 </h2>
                 <div className="flex flex-wrap gap-10 justify-center">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaInstagram /> 
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                  <a href="https://www.facebook.com/Yuvraj2603" target="_blank" rel="noopener noreferrer" class="facebookIcon">
+                    <span className="bannerIcon">
+                      <FaFacebookF />
+                    </span>
+                  </a>
+                  <a href="https://www.instagram.com/yuvrajra2603/" target="_blank" rel="noopener noreferrer" class="instagramIcon">
+                    <span className="bannerIcon">
+                      <FaInstagram /> 
+                    </span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/yuvraj-rathod-380798183/" target="_blank" rel="noopener noreferrer" class="linkedinIcon">
+                    <span className="bannerIcon">
+                      <FaLinkedinIn />
+                    </span>
+                  </a>
                 </div>
               </div>
               <span
