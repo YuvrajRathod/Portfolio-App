@@ -17,7 +17,7 @@ const Banner = () => {
       
       <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal tracking-wide font-titleFont text-gray-400 ">Welcome To My World</h4>
+        <h4 className=" text-lg font-bold tracking-wide font-titleFont text-gray-400 ">Welcome To My World</h4>
         <h1 className="text-6xl font-bold text-white ">
           Hi, I'm <span className="text-designColor capitalize">Yuvraj Rathod</span>
         </h1>
@@ -30,16 +30,15 @@ const Banner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation like a magic wand, making things smoother and guiding 
-          you through each step. It's not just for show, but to make everything 
-          work seamlessly.
+          I'm Currently Pursuing My Masters in Computer Applications at NIT Trichy. I have Done My Graduation in Computer Science from DAVV University Indore.
+          I use animation like a magic wand, making things smoother and guiding you through each step. It's not just for show, but to make everything work seamlessly.
         </p>
       </div>
      {/* Media */}
      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me in
+          <h2 className="text-base uppercase font-titleFont mb-4 font-bold">
+            FIND ME ON
           </h2>
           <div className="flex gap-4">
             <a href="https://www.facebook.com/Yuvraj2603" target="_blank" rel="noopener noreferrer" class="facebookIcon">
@@ -60,7 +59,7 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
+          <h2 className="text-base uppercase font-titleFont mb-4 font-bold">
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">

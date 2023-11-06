@@ -11,13 +11,13 @@ const Navbar = () => {
     <div className=' w-full h-24 flex  items-center justify-between font-titleFont border-b-[1px] border-b-gray-600'>
       <div className=' flex items-center justify-center gap-2 '>
         <img src={logo} alt="logo" className=' w-[70px] h-[65px] rounded-[50%] border-[2px] ' />
-        <h1>Yuvi</h1>
+        <h1><b> Y U V I</b></h1>
       </div>
       <div>
         <ul className='md:flex items-center gap-8 lg:gap-10 hidden '>
           {
             navLinksdata.map(({ _id, title, link }) => (
-                <li className="text-base w-max font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor  duration-300 after: "key={_id}>
+                <li className="text-base w-max font-bold text-gray-400 tracking-wide cursor-pointer hover:text-designColor  duration-300 after: "key={_id}>
                   <Link activeClass="active"
                         to={link}
                         spy={true}
@@ -40,17 +40,19 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative ">
               <div className='flex flex-col items-center'>
                 <img className="w-32 rounded-[50%] items-center" src={logo} alt="logo" />
+                <br></br><br></br>
                 <p className="text-sm text-gray-400 mt-4 p-2">
-                  I use animation like a magic wand, making things smoother and 
-                  guiding you through each step. It's not just for show, but  
-                  to make everything work seamlessly. 
+                  I am YUVRAJ RATHOD. I am from KHARGONE M.P. 
+                  I'm Currently Pursuing My Masters in Computer Applications at NIT Trichy.
+                  I have Done My Graduation in Computer Science from DAVV University Indore.
                 </p>
               </div>
+              <br></br>
               <ul className="flex flex-wrap gap-[50px] justify-center ">
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
-                    className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+                    className="text-base font-bold text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
                   >
                     <Link
                       onClick={() => setShowMenu(false)}
@@ -66,8 +68,10 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
+              <hr></hr>
+              <br></br>
               <div className="flex flex-col gap-6">
-                <h2 className="text-base capitalize font-titleFont my-3 text-center ">
+                <h2 className="text-base capitalize font-titleFont my-3 text-center font-bold">
                   FIND ME ON
                 </h2>
                 <div className="flex flex-wrap gap-10 justify-center">
