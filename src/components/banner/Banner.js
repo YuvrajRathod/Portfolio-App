@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiCanva, SiNodedotjs } from "react-icons/si";
+import { SiTailwindcss, SiGithub, SiNodedotjs } from "react-icons/si";
 import { yuviPhoto } from "../../assets/index";
 const Banner = () => {
     const [text] = useTypewriter({
@@ -42,16 +42,21 @@ const Banner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon"  >
-              <FaFacebookF />
-            </span>
-
-            <span className="bannerIcon">
-              <FaInstagram />
-            </span>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+            <a href="https://www.facebook.com/Yuvraj2603" target="_blank" rel="noopener noreferrer" class="facebookIcon">
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+            </a>
+            <a href="https://www.instagram.com/yuvrajra2603/" target="_blank" rel="noopener noreferrer" class="instagramIcon">
+              <span className="bannerIcon">
+                <FaInstagram />
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/yuvraj-rathod-380798183/" target="_blank" rel="noopener noreferrer" class="linkedinIcon">
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
           </div>
         </div>
         <div>
@@ -59,18 +64,26 @@ const Banner = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNodedotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiCanva />
-            </span>
+            <a href="https://react.dev/learn" target="_blank" rel="noopener noreferrer" class="ReactIcon">
+              <span className="bannerIcon">
+                <FaReact />
+              </span>
+            </a>
+            <a href="https://nodejs.dev/en/learn/" target="_blank" rel="noopener noreferrer" class="NodedotjsIcon">
+              <span className="bannerIcon">
+                <SiNodedotjs />
+              </span>
+            </a>
+            <a href="https://tailwindcss.com/docs/installation" target="_blank" rel="noopener noreferrer" class="TailwindcssIcon">
+              <span className="bannerIcon">
+                <SiTailwindcss />
+              </span>
+            </a>
+            <a href="https://github.com/YuvrajRathod" target="_blank" rel="noopener noreferrer" class="gitHubIcon">
+              <span className="bannerIcon">
+                <SiGithub />
+              </span>
+            </a>
           </div>
         </div>
       </div>

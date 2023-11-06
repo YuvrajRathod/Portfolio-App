@@ -3,7 +3,7 @@ import Title from '../layouts/Title';
 import Education from './Education';
 import Skills from './Skills';
 import Achievements from './Achievements';
-import Experience from "./Experience"
+import Experience from "./Certifications"
 
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);

@@ -18,11 +18,8 @@ function App() {
       <Resume/>
       <Contact/>
       <Footer/>
-      </div>
-      
-
+      </div>    
     </div>
   );
 }
-
 export default App;
