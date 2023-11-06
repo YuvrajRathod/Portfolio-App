@@ -17,7 +17,7 @@ const Experience = () => {
         <div className="mt-14 w-[85vw] h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Problem Solving & Software Engineering"
-            subTitle="Programmer (2023 - Present)"
+            subTitle="Programmer (2021 - 2023)"
             result="INDIA"
             des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. "
           />
@@ -29,7 +29,7 @@ const Experience = () => {
           />
           <ResumeCard
             title="Front-end Developer"
-            subTitle="CodeHelp (2021 - 2022)"
+            subTitle="CodeHelp (2021 - 2023)"
             result="INDIA"
             des="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
           />
