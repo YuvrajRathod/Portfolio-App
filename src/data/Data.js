@@ -8,30 +8,30 @@ import { SiProgress, SiAntdesign } from "react-icons/si";
   {
     id: 1,
     icon: <AiFillAppstore />,
-    title: "WebApp Development",
+    title: "Problem Solving",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
   {
     id: 2,
     icon: <SiProgress />,
-    title: "SEO Optimisation",
+    title: "WebApp Development",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
   {
     id: 3,
     icon: <SiAntdesign />,
-    title: "UX Design",
+    title: "Core Subjects",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
   {
     id: 4,
-    icon: <FaGlobe />,
-    title: "Hosting Websites",
+    title: "Content Writer",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
   {
     id: 5,
-    title: "Content Writer",
+    icon: <FaGlobe />,
+    title: "Hosting Websites",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
 ];
