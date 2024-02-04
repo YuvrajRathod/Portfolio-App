@@ -14,7 +14,7 @@ const Footer = () => {
               <FaFacebookF />
             </span>
           </a>
-          <a href="https://www.instagram.com/yuvrajra2603/" target="_blank" rel="noopener noreferrer" class="instagramIcon">
+          <a href="https://www.instagram.com/yuvraj_rathod26/" target="_blank" rel="noopener noreferrer" class="instagramIcon">
             <span className="bannerIcon">
               <FaInstagram />
             </span>
