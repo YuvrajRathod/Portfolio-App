@@ -19,7 +19,7 @@ const Education = () => {
         <ResumeCard
             title="Master Of Computer Applications"
             subTitle="National Institute of Technology, Tiruchirappalli (NIT Trichy) (2021 - 2024)"
-            result="7.28 CGPA"
+            result="7.32 CGPA"
             des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
           />
 
