@@ -11,4 +11,4 @@ const Title = ({title, des}) => {
   );
 }
 
-export default Title
+export default Title;

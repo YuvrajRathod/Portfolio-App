@@ -33,11 +33,11 @@ const Projects = () => {
           src={projectTwo}
         />
         <ProjectsCard
-          title="TeamMetricks"
-          des=" I developed an application using PHP, HTML, CSS, and JavaScript with 
-              separate admin and user sections. Admins manage projects and employees, 
-              while users submit work and leave requests. The system prioritizes 
-              user-friendly design for easy navigation and operation."
+          title="Student Portal"
+          des=" Led a project at NIT Tiruchirappalli to organize placement/ internship 
+          data for senior students, aiding career decisions. Added features for 
+          buying/ selling books/ notes and uploading papers. Implemented secure login 
+          for exclusive access to NIT Tiruchirappalli students."
           src={projectThree}
         />
      

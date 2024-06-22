@@ -17,22 +17,27 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-[85vw] h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Problem Solving & Software Engineering"
+            title="Problem Solving in C++"
             subTitle="Programmer (2021 - 2023)"
             result="INDIA"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. "
+            des=" This is to certify that YUVRAJ RATHOD has successfully completed the Oops in C++ guided path 
+            on Coding Ninjas Studio Modules Covered - Introduction to OOPs, Classes, objects and access modifiers, 
+            Constructors and destructors etc. "
           />
           <ResumeCard
-            title="Full Stack Developer & UI / Designer"
-            subTitle="CodeHelp Developer Team - (2022 - 2023)"
+            title="Data Structure and Algorithm"
+            subTitle="CodeHelp (2022 - 2023)"
             result="INDIA"
-            des="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+            des="CERTIFICATE OF COMPLETION is awarded to Yuvraj Rathod Having completed the 5-month long 
+            comprehensive course of Data Structures & Algorithms Master Course [Supreme Batch]in 2023"
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="CodeHelp (2021 - 2023)"
+            title="Full Stack Developer Intern"
+            subTitle="SONNENTECHS Intern - (2022 - 2023)"
             result="INDIA"
-            des="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+            des="Completed a Full Stack Development internship at SONNENTECHS from April to June 2023. 
+            Led successful projects using HTML, CSS, JavaScript, NodeJS, and MongoDB and making the user 
+            experience better by connecting the front -end and back-end."
           />
         </div>
       </div>
