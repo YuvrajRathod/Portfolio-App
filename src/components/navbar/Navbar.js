@@ -43,8 +43,9 @@ const Navbar = () => {
                 <br></br><br></br>
                 <p className="text-sm text-gray-400 mt-4 p-2">
                   I am YUVRAJ RATHOD. I am from KHARGONE M.P. 
-                  I'm Currently Pursuing My Masters in Computer Applications at NIT Trichy.
-                  I have Done My Graduation in Computer Science from DAVV University Indore.
+                  Working at TATA Consultancy Services as System Engineer. 
+                  I have done my Masters in Computer Applications at NIT Trichy. 
+                  I have done my graduation in B.Sc. Computer Science from DAVV University, Indore.
                 </p>
               </div>
               <br></br>

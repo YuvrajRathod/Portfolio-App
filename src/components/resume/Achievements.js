@@ -11,15 +11,15 @@ const Achievement = () => {
     >
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">20** - 20**</p>
+          <p className="text-sm text-designColor tracking-[4px]">2024 - Present</p>
           <h2 className="text-4xl font-bold">Company Experience</h2>
         </div>
         <div className="mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            title="TATA Consultancy Services"
+            subTitle="System Engineer"
+            result="1.5 years"
+            des="Working at Tata Consultancy Services (TCS) as a System Engineer for the past 1.5 years, where I am currently involved in an Agile-based project."
           />
           <ResumeCard
             title="Lorem ipsum dolor sit amet."

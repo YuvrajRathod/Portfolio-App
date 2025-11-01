@@ -17,12 +17,10 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-[85vw] h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Problem Solving in C++"
-            subTitle="Programmer (2021 - 2023)"
-            result="INDIA"
-            des=" This is to certify that YUVRAJ RATHOD has successfully completed the Oops in C++ guided path 
-            on Coding Ninjas Studio Modules Covered - Introduction to OOPs, Classes, objects and access modifiers, 
-            Constructors and destructors etc. "
+            title="Microsoft Certified: Power Plateform Developer Associate"
+            subTitle="Programmer (Oct 2025 - Oct 2026)"
+            result="86.10%"
+            des=" This is to certify that YUVRAJ RATHOD has successfully passed all requirement for Microsoft Certified: Power Plateform Developer Associate (PL-400). "
           />
           <ResumeCard
             title="Data Structure and Algorithm"

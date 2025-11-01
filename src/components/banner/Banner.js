@@ -30,7 +30,7 @@ const Banner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I'm Currently Pursuing My Masters in Computer Applications at NIT Trichy. I have Done My Graduation in Computer Science from DAVV University Indore.
+          Working at TATA Consultancy Services as System Engineer. I have done my Masters in Computer Applications at NIT Trichy. I have done my graduation in B.Sc. Computer Science from DAVV University, Indore.
           I use animation like a magic wand, making things smoother and guiding you through each step. It's not just for show, but to make everything work seamlessly.
         </p>
       </div>
@@ -42,7 +42,7 @@ const Banner = () => {
           </h2>
           <div className="flex gap-4">
             <a href="https://www.facebook.com/Yuvraj2603" target="_blank" rel="noopener noreferrer" class="facebookIcon">
-              <span className="bannerIcon">
+               <span className="bannerIcon">
                 <FaFacebookF />
               </span>
             </a>
